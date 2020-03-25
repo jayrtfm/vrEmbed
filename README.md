@@ -1,4 +1,5 @@
 # vrEmbed, by Bhautik Joshi
+republished by <a href="https://scratch.mit.edu/users/lisa_wolfgang>lisa_wolfgang</a>
 
 <img src="src/assets/vrEmbedLogo.png" width="300px">
 
@@ -8,23 +9,23 @@ vrEmbed is an easy-to-use tool to create a VR experience from photos. You can us
 
 <a href="https://commons.wikimedia.org/wiki/File:Rheingauer_Dom,_Geisenheim,_360_Panorama_(Equirectangular_projection).jpg" target="_blank"><i>(source)</i></a>
 
-..and turn it into an <a href="http://vrEmbed.org/?src=src/assets/rheingauer_dom.jpg&sphereParams=360,180,0,0&isStereo=false">interactive VR experience</a>.
+..and turn it into an <a href="https://lisa-wolfgang.github.io/vrEmbed/?src=src/assets/rheingauer_dom.jpg&sphereParams=360,180,0,0&isStereo=false">interactive VR experience</a>.
 
 The above could be achieved using a simple, one-line embed code:
 ```
-<a class="vrEmbedPhoto" src="src/assets/rheingauer_dom.jpg" isStereo="false" sphereParams="360,180,0,0"></a><script async src="//vrEmbed.org/vrEmbed.min.js" charset="utf-8"></div></script>
+<a class="vrEmbedPhoto" src="src/assets/rheingauer_dom.jpg" isStereo="false" sphereParams="360,180,0,0"></a><script async src="//lisa-wolfgang.github.io/vrEmbed/vrEmbed.min.js" charset="utf-8"></div></script>
 ```
 
 or a single URL:
 ```
-http://vrEmbed.org/?src=src/assets/rheingauer_dom.jpg&sphereParams=360,180,0,0&isStereo=false
+https://lisa-wolfgang.github.io/vrEmbed/?src=src/assets/rheingauer_dom.jpg&sphereParams=360,180,0,0&isStereo=false
 ```
 
 You can even take 3D image pairs:
 
 <img src="src/assets/stereograph_b.jpg" width=300px/>
 
-..and turn them into an <a href="http://vrEmbed.org/?src=src/assets/stereograph_b.jpg&sphereParams=90,90,0,0&isStereo=true&texParams=.0,.0,.5,1.,.5,.0,1.,1.">interactive scene</a>.
+..and turn them into an <a href="https://lisa-wolfgang.github.io/vrEmbed/?src=src/assets/stereograph_b.jpg&sphereParams=90,90,0,0&isStereo=true&texParams=.0,.0,.5,1.,.5,.0,1.,1.">interactive scene</a>.
 
 
 ##How to create a vrEmbed pano
@@ -32,12 +33,12 @@ The quick mode for vrEmbed allows you to quickly wrap a single image to turn it 
 
 The basic format of a vrEmbed goes like this:
 ```
-<a class="vrEmbedPhoto" src="foo.jpg" isStereo="false" sphereParams="w,h,x,y" texParams="LTx,LTy,LBx,LBy,RTx,RTy,RBx,RBy"></a><script async src="//vrEmbed.org/vrEmbed.min.js" charset="utf-8"></div></script>
+<a class="vrEmbedPhoto" src="foo.jpg" isStereo="false" sphereParams="w,h,x,y" texParams="LTx,LTy,LBx,LBy,RTx,RTy,RBx,RBy"></a><script async src="//lisa-wolfgang.github.io/vrEmbed/vrEmbed.min.js" charset="utf-8"></div></script>
 ```
 
 Alternatively, if you don't want an embed code and just want a single URL to turn your image into an interactive scene, you can format your URL like this:
 ```
-https://vrEmbed.org/?src=foo.jpg&amp;isStereo=false&amp;sphereParams=w,h,x,y&amp;texParams=LTx,LTy,LBx,LBy,RTx,RTy,RBx,RBy
+https://lisa-wolfgang.github.io/vrEmbed/?src=foo.jpg&amp;isStereo=false&amp;sphereParams=w,h,x,y&amp;texParams=LTx,LTy,LBx,LBy,RTx,RTy,RBx,RBy
 ```
 
 ###Needed: src
