@@ -1,5 +1,5 @@
 # vrEmbed, by Bhautik Joshi
-republished by <a href="https://scratch.mit.edu/users/lisa_wolfgang>lisa_wolfgang</a>
+republished by <a href="https://scratch.mit.edu/users/lisa_wolfgang">lisa_wolfgang</a>
 
 <img src="src/assets/vrEmbedLogo.png" width="300px">
 
