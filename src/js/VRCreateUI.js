@@ -941,7 +941,7 @@ VRCreateUI = function() {
     modeGallery.onclick = this.tryModeGallery;
     modeNewStory.onclick = this.tryModeNewStory;
     modeExistingStory.onclick = this.tryModeExistingStory;
-    this.oneImage.value = "http://vrembed.org/src/assets/vrEmbedLogo.png";
+    this.oneImage.value = "https://lisa-wolfgang.github.io/vrEmbed/src/assets/vrEmbedLogo.png";
 
 
     this.exportEquirectangularButton = document.getElementById("exportEquirectangularButton");
