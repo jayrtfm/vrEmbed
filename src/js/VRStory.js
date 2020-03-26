@@ -708,16 +708,16 @@ VRStory = function() {
   this.getShareCodes = function() {
     var urlCode = "";
     var embedCode = "";
-    var scriptInc = '<script async src="//vrEmbed.org/vrEmbed.min.js" charset="utf-8"></script>';
+    var scriptInc = '<script async src="//lisa-wolfgang.github.io/vrEmbed/vrEmbed.min.js" charset="utf-8"></script>';
     var iframePrefix = "<iframe width='640' height='360' src='";
     var iframeSuffix = "' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
     if (this.gallerySrc != null) {
-      urlCode = encodeURIComponent("http://vrembed.org/?gallery=" + this.gallerySrc);
-      embedCode = iframePrefix + "http://vrembed.org/?gallery=" + this.gallerySrc + iframeSuffix;
+      urlCode = encodeURIComponent("https://lisa-wolfgang.github.io/vrEmbed/?gallery=" + this.gallerySrc);
+      embedCode = iframePrefix + "https://lisa-wolfgang.github.io/vrEmbed/?gallery=" + this.gallerySrc + iframeSuffix;
     } else if (this.isSinglePhotoStory()==true){
-      urlCode = encodeURIComponent("http://vrembed.org/" + this.sceneList[0].photoObjects[0].getSinglePhotoURLParams());
+      urlCode = encodeURIComponent("https://lisa-wolfgang.github.io/vrEmbed/" + this.sceneList[0].photoObjects[0].getSinglePhotoURLParams());
       //embedCode = this.sceneList[0].photoObjects[0].getSinglePhotoVrEmbedElement().outerHTML+scriptInc;
-      embedCode = iframePrefix + "http://vrembed.org/" + this.sceneList[0].photoObjects[0].getSinglePhotoURLParams() + iframeSuffix;
+      embedCode = iframePrefix + "https://lisa-wolfgang.github.io/vrEmbed/" + this.sceneList[0].photoObjects[0].getSinglePhotoURLParams() + iframeSuffix;
     } else {
       urlCode = encodeURIComponent(window.location.href);
       embedCode = "<div>"+this.getStoryElement().outerHTML + scriptInc +"</div>";
