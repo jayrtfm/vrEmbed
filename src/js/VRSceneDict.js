@@ -67,7 +67,7 @@ VRSceneDict = function() {
   this.initPhoto = function() {
     var photo ={};
     photo.textureDescription = {};
-    photo.textureDescription.src="http://vrembed.org/src/assets/vrEmbedLogo.png";
+    photo.textureDescription.src="https://lisa-wolfgang.github.io/vrEmbed/src/assets/vrEmbedLogo.png";
     photo.textureDescription.isStereo = false;
     photo.textureDescription.plane = false;
     photo.textureDescription.sphereFOV = [60,60];
@@ -121,7 +121,7 @@ VRSceneDict = function() {
 
   this.initDecal = function() {
     var decal ={};
-    decal.imgsrc="http://vrembed.org/src/assets/vrEmbedLogo.png";
+    decal.imgsrc="https://lisa-wolfgang.github.io/vrEmbed/src/assets/vrEmbedLogo.png";
     decal.jumpTo = "";
     decal.textureDescription = {};
     decal.textureDescription.src="";
