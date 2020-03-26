@@ -90,8 +90,8 @@ function VROptionsCore() {
   this.setupDialogOptions = function() {
     var tex = "";
     tex += '<img src=' + VRLogos.logoVrEmbed + ' width=60px style="float: left; margin: 2px 2px 2px 2px;"/>';
-    tex += '<a href="http://vrEmbed.org" target="_blank" style="color: inherit; text-decoration: none;">'
-    tex += '<br/>vrEmbed.org</a><br/><span style="font-size:70%">(c) Bhautik Joshi 2015-16</span><div style="clear:left;">';
+    tex += '<a href="https://lisa-wolfgang.github.io/vrEmbed" style="color: inherit; text-decoration: none;">'
+    tex += '<br/>lisa-wolfgang.github.io/vrEmbed</a><br/><span style="font-size:70%">(c) Bhautik Joshi 2015-16</span><div style="clear:left;">';
     this.dialogText.innerHTML = tex;
   }
 
